@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7d794;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.game {
+  margin-top: 30px;
+}
+
+#cookie {
+  width: 220px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+#cookie:active {
+  transform: scale(0.95);
+}
+
+.shop {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #8e5a2b;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #a66b35;
+}
