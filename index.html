@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Cookie Clicker Game</title>
+  <title>Cookie Site Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>🍪 Cookie Clicker</h1>
+  <header>
+    <h1>🍪 Cookie Website</h1>
+    <p>Welcome to the cookie hub</p>
+  </header>
 
-  <div class="game">
-    <img id="cookie" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_Chip_Cookies_-_kimberlykv.jpg" alt="cookie">
-    
-    <h2>Cookies: <span id="count">0</span></h2>
-    <h3>Per second: <span id="cps">0</span></h3>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="game.html">Game</a>
+    <a href="about.html">About</a>
+  </nav>
 
-    <div class="shop">
-      <button onclick="buyCursor()">Buy Cursor (50 cookies)</button>
-      <button onclick="buyGrandma()">Buy Grandma (200 cookies)</button>
-    </div>
-  </div>
+  <main>
+    <h2>Welcome 👋</h2>
+    <p>This is a simple website with a cookie clicker-style game and info pages.</p>
 
-  <script src="script.js"></script>
+    <a class="big-button" href="game.html">Play Game</a>
+  </main>
+
 </body>
 </html>
